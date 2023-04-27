@@ -1,0 +1,27 @@
+.logoBrand{
+    font-family: playfair Display;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+span{
+    color: var(--brandColor);
+}
+.loginBtn{
+    background-color: var(--brandColor) !important;
+    border: none !important;
+}
+.signUpBtn{
+    border-color: var(--brandColor) !important;
+    color: black !important;
+    font-weight: 600 !important;
+}
+.signUpBtn:hover,.payBtn:hover{
+    background-color: var(--brandColor) !important;
+    color: white !important;
+}
+.payBtn{
+    border-color: var(--brandColor) !important;
+    border-width: 2px;
+    color: var(--brandColor) !important;
+    font-weight: 700 !important;
+}
